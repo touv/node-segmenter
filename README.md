@@ -3,8 +3,6 @@
 [![Build Status](https://secure.travis-ci.org/touv/node-segmenter.png?branch=master)](http://travis-ci.org/touv/node-segmenter)
 
 To segment a set of chunks from strings or streams
-It's a collection of javascript tools (parse/stringify) for CSV strings. It can work row by row. 
-Unlike many other similar modules, it works correctly with fields containing newlines (including on the first line)
  
 ## Contributors
 
