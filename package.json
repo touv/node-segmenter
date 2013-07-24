@@ -1,7 +1,7 @@
 {
   "name": "segmenter",
   "author": "Nicolas Thouvenin <nthouvenin@gmail.com>",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "To segment a set of chunks from strings or streams",
   "main": "./lib/segmenter.js",
   "homepage": "http://github.com/touv/node-segmenter",
