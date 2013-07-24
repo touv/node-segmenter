@@ -18,27 +18,34 @@ With [npm](http://npmjs.org) do:
 
 # Examples
 
-## Basic
+## With string
 ```javascript
 	var Segmenter = require('segmenter'),
-	seg = new Segmenter({ delimiter: "|" });
+	seg = new Segmenter({ delimiter: "." });
 
-    seg.fecth('a|b|c')
+    seg.fecth('a.b.c.');
 ```
 Output:
 	
 	[ 'a', 'b', 'c' ]
 
-## Advanced
+## With buffer
 ```javascript
-	var Segmenter = require('segmenter'),
-	seg = new Segmenter();
+	var seg = new Segmenter(),
+		readStream = require('fs').createReadStream('dataset.txt'),
+		res = [];
 
-    seg.fecth('a|b|c')
+	readStream.on('data', function (chunk) {
+		res = res.concat(seg.fetch(chunk));
+    });
+    readStream.on('end', function () {
+		console.log('Array of lines', lines);
+	});
+
 ```
 Output:
 	
-	[ 'a', 'b', 'c' ]
+	[ 'Line 1', 'Line 2', 'etc.', ... ]
 		
 
 # Tests
