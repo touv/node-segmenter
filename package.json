@@ -1,0 +1,27 @@
+{
+  "name": "segmenter",
+  "author": "Nicolas Thouvenin <nthouvenin@gmail.com>",
+  "version": "0.0.0",
+  "description": "To segment a set of chunks from strings or streams",
+  "main": "./lib/segmenter.js",
+  "homepage": "http://github.com/touv/node-segmenter",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/touv/node-segmenter.git"
+  },
+  "keywords": [
+    "strings",
+    "split",
+    "lines"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/touv/node-segmenter/issues"
+  },
+  "engines": {
+    "node": ">=0.6.0"
+  }
+}
