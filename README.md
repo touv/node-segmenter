@@ -21,7 +21,7 @@ With [npm](http://npmjs.org) do:
 	var Segmenter = require('segmenter'),
 	seg = new Segmenter({ delimiter: "." });
 
-    seg.fecth('a.b.c.');
+    seg.fetch('a.b.c.');
 ```
 Output:
 	
