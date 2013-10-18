@@ -85,3 +85,7 @@ Fetch segments in a Buffer.
 # License
 
 [MIT/X11](https://github.com/touv/node-segmenter/blob/master/LICENSE)
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/touv/node-segmenter/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
